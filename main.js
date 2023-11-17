@@ -15,5 +15,8 @@ for(let contador = 0; contador < listaDeTeclas.length; contador++){
     teclas.onkeydown = function(){
         teclas.classList.add('ativa');
     }
+    teclas.onkeyup = function(){
+        teclas.classList.remove('ativa');
+    }
     
 }
